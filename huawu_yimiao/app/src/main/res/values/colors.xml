@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cecfcf</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="edit_color">#d7d9d8</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="text_color">#16ae66</color>
+    <color name="zhizhen_color">#050505</color>
+</resources>

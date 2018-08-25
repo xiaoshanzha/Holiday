@@ -1,0 +1,12 @@
+<litepal>
+    <dbname value = "location"/>
+
+    <version value = "7"/>
+
+    <list>
+        <mapping class="com.example.hp.huawu_yimiao.db.City"/>
+        <mapping class="com.example.hp.huawu_yimiao.db.Province"/>
+        <mapping class="com.example.hp.huawu_yimiao.db.County"/>
+        <mapping class="com.example.hp.huawu_yimiao.db.Baby"/>
+    </list>
+</litepal>

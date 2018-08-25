@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="?attr/colorPrimary">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circle_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/dog"/>
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="育儿知识"
+            android:textSize="24sp"
+            android:textColor="@color/text_color"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/edit_color">
+
+        <EditText
+            android:background="@drawable/huxing"
+            android:id="@+id/edit_text"
+            android:drawableLeft="@mipmap/sousuo"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="打百白破出现硬结的正确处理方式"
+            android:textCursorDrawable="@drawable/guangbiao"
+            android:textSize="13sp"
+             />
+
+
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
+
+
